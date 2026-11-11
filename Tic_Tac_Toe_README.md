@@ -101,7 +101,7 @@ These are observations, **not code changes**. The uploaded Python files have bee
 | Game crashes after choosing replay | See the `self.start()` issue above. |
 | Occupied position or turn behavior seems incorrect | See the shared-position tracking issue above. |
 
-## Technical interview summary
+## Technical Summary
 
 > I built a command-line Tic-Tac-Toe game in Python using an object-oriented design. The `Move` class translates user choices into board coordinates, `Player` handles human and random computer moves, `Board` maintains game state and checks win/tie conditions, and `TicTocToeGame` coordinates the rounds. The project demonstrates class responsibilities and encapsulation. My next improvements are centralized legal-move validation, reliable game termination, and replay handling.
 

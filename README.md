@@ -12,7 +12,6 @@ A command-line **human vs. computer Tic-Tac-Toe** project written in Python usin
 | `board1.py` | Defines `Board`, displays the board, places markers, checks rows/columns/diagonals for wins, detects ties, and resets the board. |
 | `Player.py` | Defines `Player`, human/computer markers, input handling, and random computer move selection. |
 | `move.py` | Defines `Move`, validates a position from 1–9, and converts it to a row and column. |
-| `main.py` | **Not part of the Tic-Tac-Toe game.** This is a separate FastAPI/PostgreSQL example and is not needed to run the game. |
 
 ## Requirements
 
@@ -101,7 +100,7 @@ These are observations, **not code changes**. The uploaded Python files have bee
 | Game crashes after choosing replay | See the `self.start()` issue above. |
 | Occupied position or turn behavior seems incorrect | See the shared-position tracking issue above. |
 
-## Technical interview summary
+## Technical Summary
 
 > I built a command-line Tic-Tac-Toe game in Python using an object-oriented design. The `Move` class translates user choices into board coordinates, `Player` handles human and random computer moves, `Board` maintains game state and checks win/tie conditions, and `TicTocToeGame` coordinates the rounds. The project demonstrates class responsibilities and encapsulation. My next improvements are centralized legal-move validation, reliable game termination, and replay handling.
 
