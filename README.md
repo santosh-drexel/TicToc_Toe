@@ -12,7 +12,6 @@ A command-line **human vs. computer Tic-Tac-Toe** project written in Python usin
 | `board1.py` | Defines `Board`, displays the board, places markers, checks rows/columns/diagonals for wins, detects ties, and resets the board. |
 | `Player.py` | Defines `Player`, human/computer markers, input handling, and random computer move selection. |
 | `move.py` | Defines `Move`, validates a position from 1–9, and converts it to a row and column. |
-| `main.py` | **Not part of the Tic-Tac-Toe game.** This is a separate FastAPI/PostgreSQL example and is not needed to run the game. |
 
 ## Requirements
 
